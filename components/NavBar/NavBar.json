@@ -75,11 +75,22 @@
         "subMenu": [
           {
             "name": "menu 3-4-1",
-            "url": "/menu 3-4-1"
+            "url": "/menu 3-4-1",
+            "subMenu": []
           },
           {
             "name": "menu 3-4-2",
-            "url": "/menu 3-4-2"
+            "url": "/menu 3-4-2",
+            "subMenu": [
+              {
+                "name": "menu 3-4-2-1",
+                "url": "/menu 3-4-2-2"
+              },
+              {
+                "name": "menu 3-4-2-3",
+                "url": "/menu 3-4-2-4"
+              }
+            ]
           }
         ]
       }
