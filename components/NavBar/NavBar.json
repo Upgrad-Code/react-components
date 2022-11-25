@@ -1,0 +1,70 @@
+[
+  {
+    "name": "menu 1",
+    "url": "/menu-1"
+  },
+  {
+    "name": "menu 2",
+    "url": "/menu-2",
+    "subMenu": [
+      {
+        "name": "menu 2-1",
+        "url": "/menu 2-1"
+      },
+      {
+        "name": "menu 2-2",
+        "url": "/menu 2-2"
+      },
+      {
+        "name": "menu 2-3",
+        "url": "/menu 2-3"
+      },
+      {
+        "name": "menu 2-4",
+        "url": "/menu 2-4",
+        "subMenu": [
+          {
+            "name": "menu 2-4-1",
+            "url": "/menu 2-4-1"
+          },
+          {
+            "name": "menu 2-4-2",
+            "url": "/menu 2-4-2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "menu 3",
+    "url": "/menu-3",
+    "subMenu": [
+      {
+        "name": "menu 3-1",
+        "url": "/menu 3-1"
+      },
+      {
+        "name": "menu 3-2",
+        "url": "/menu 3-2",
+        "subMenu": [
+          {
+            "name": "menu 3-2-1",
+            "url": "/menu 3-2-1"
+          },
+          {
+            "name": "menu 3-2-2",
+            "url": "/menu 3-2-2"
+          }
+        ]
+      },
+      {
+        "name": "menu 3-3",
+        "url": "/menu 3-3"
+      },
+      {
+        "name": "menu 3-4",
+        "url": "/menu 3-4"
+      }
+    ]
+  }
+]
