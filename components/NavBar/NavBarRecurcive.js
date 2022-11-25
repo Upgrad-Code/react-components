@@ -3,7 +3,7 @@ import { Nav, NavDropdown } from 'react-bootstrap';
 
 const NavBarRecurcive = ({ data }) => {
   // console.log(data);
-  const hasChildren = data.subMenu && data.subMenu.length;
+  const hasChildren = data.subMenu && data.subMenu.length > 0;
   return (
     <>
       {hasChildren ? (
