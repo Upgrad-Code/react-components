@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, NavDropdown } from 'react-bootstrap';
 
 const NavBarRecurcive = ({ data }) => {
+  // console.log(data);
   const hasChildren = data.subMenu && data.subMenu.length;
   return (
     <>
